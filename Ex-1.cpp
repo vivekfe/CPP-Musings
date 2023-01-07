@@ -23,7 +23,7 @@ struct emp e2= {"Malon",24,6000};
 
 printf("%s %d %f", e2.n, e2.a,e2.s);
 
-struct emp *p;
+struct emp *p;  // structure pointer or pointer to an structure, both are correct 
 
 p=&e1;
 
