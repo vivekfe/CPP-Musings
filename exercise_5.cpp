@@ -40,7 +40,7 @@ s->top = 0;
 }
 void push(struct stack *s, int x)
 {
-s->a[top]=x;
+s->a[s->top]=x;
 s->top++;
 }
 
