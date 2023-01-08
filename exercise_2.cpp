@@ -46,4 +46,5 @@ public:
 
 stack s1, s2;
 
-s1.top = -1 // This is not allowed in this particular construct
+s1.top = -1; // This is not allowed in this particular construct
+s1.a[4] = 45; // this is not allowed as well 
