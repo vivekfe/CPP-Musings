@@ -48,3 +48,22 @@ stack s1, s2;
 
 s1.top = -1; // This is not allowed in this particular construct
 s1.a[4] = 45; // this is not allowed as well 
+
+
+// Now change this struct to a class
+
+class a 
+
+{
+int i ;  // class members are by default private, so use getter and setter methods
+float j;
+};
+
+void main()
+{
+ a z1 = {10,3.14};
+ cout << z1.i << z1.j;
+  
+ // << works as an overloaded operater, it works as a cout and bitwise left shift operator 
+  
+ }
