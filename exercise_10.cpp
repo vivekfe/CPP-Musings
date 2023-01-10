@@ -37,10 +37,24 @@ void comp:: print()
   cout << r << i;
 }
 
-comp comp:: operator+(comp &c2)
+comp comp:: operator+(comp c2)
 {
   comp t;
   t.r=r+c2.r;
   t.i=i+c2.i;
   return t;
 }
+
+// main.cpp
+#include "comp.h"
+#include <iostream.h>
+void main()
+{
+  comp a(1.0,2.0);
+  comp b(2.0,2.0);
+  comp c;
+  c=a+b;
+  cout << "c=";
+  c.print;
+}
+
