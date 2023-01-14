@@ -18,7 +18,7 @@ class ConstExample
             std:: cout << "const Version" << std::endl;
             
         }
-        void printName()
+        void printName()   // overloading a const function
         {
             std:: cout << "non const Version" << std::endl;
             
