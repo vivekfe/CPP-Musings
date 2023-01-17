@@ -19,4 +19,8 @@ two=one;
 useless(two);
 std::cout << "Value of x changing "<< one->x<< std:: endl;
 return 0;
+std::cout << std::boolalpha << (one.get() == two.get()) << std::endl;
+// after the return ' one' and 'two are destroyed'
+// Ref count reaches zero
+// "some" is destroyed
 }
