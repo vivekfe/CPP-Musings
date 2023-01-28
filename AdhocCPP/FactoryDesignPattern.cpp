@@ -33,3 +33,4 @@ Character* warrior = CharacterFactory::createCharacter("warrior");
 warrior->move(); // Output: Warrior moves forward.
  return 0;
 }
+
