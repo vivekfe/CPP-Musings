@@ -12,3 +12,5 @@ public:
 };
 
 //In C++, a pure virtual function is a virtual function that has no implementation in the base class, and must be overridden in derived classes. A pure virtual function is declared by using the "= 0" notation at the end of the function declaration.
+
+//A pure virtual member function is a member function that the base class forces derived classes to provide.
