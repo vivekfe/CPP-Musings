@@ -32,3 +32,10 @@ public:
 }
 
 // since shape was mentioned eaerlier, so shape's constructor will be called earlier
+
+if a class gets derived from two classes and both have the same function, then
+we need to do something like below:
+
+derived d;
+d.base1::f1();
+d.base2::f1();
